@@ -1,0 +1,11 @@
+const double DIMEN_NANO = 1;
+const double DIMEN_MICRO = 2;
+const double DIMEN_MILLI = 4;
+const double DIMEN_CENTI = 8;
+const double DIMEN_DECI = 12;
+const double DIMEN_BASE = 16;
+const double DIMEN_DECA = 20;
+const double DIMEN_HECTO = 24;
+const double DIMEN_KILO = 28;
+const double DIMEN_MEGA = 32;
+const double DIMEN_GIGA = 40;

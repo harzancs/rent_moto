@@ -1,0 +1,25 @@
+import 'package:flutter/material.dart';
+
+const Color COLOR_TRANSPARENT = Color(0x00000000);
+const Color COLOR_WHITE = Color(0xFFFDFFFC);
+const Color COLOR_BLACK = Color(0xFF000000);
+const Color COLOR_GREY_DARK = Color(0xFF333333);
+const Color COLOR_GREY = Color(0xFF999999);
+const Color COLOR_GREY_LIGHT = Color(0xffd8d8d8);
+const Color COLOR_GREY_THIN = Color(0xfff6f6f6);
+const Color COLOR_MINT = Color(0xFFEEF4ED);
+const Color COLOR_PRIMARY = Color(0xfffe333b);
+const Color COLOR_ORANGE = Color(0xffFC7119);
+const Color COLOR_PRIMARY_LIGHT = Color(0xfff99f00);
+const Color COLOR_BLUE = Color(0xff0076d9);
+const Color COLOR_CYAN = Color(0xFF3DC8FF);
+const Color COLOR_SUCCESS = Color(0xFF408920);
+const Color COLOR_WARNING = Color(0xFFF7B801);
+const Color COLOR_DANGER = Color(0xFFEC1F28);
+const Color COLOR_INFO = Color(0xFF8DA9C4);
+const Color COLOR_PURPLE = Color(0xFFA72A96);
+const Color COLOR_PURPLE_LIGHT = Color(0xFFEF008B);
+const Color COLOR_BLUE_DARK = Color(0xFF102e6c);
+const Color COLOR_BLUE_LIGHT = Color(0xFF556080);
+const Color COLOR_DARK_GOLD = Color(0xFFc5a53e);
+const Color COLOR_GOLD = Color(0xFFFFD700);
