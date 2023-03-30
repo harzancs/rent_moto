@@ -80,6 +80,12 @@
       "languageVersion": "2.16"
     },
     {
+      "name": "firebase_core_dart",
+      "rootUri": "file:///Users/goventure/development/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_dart-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "firebase_core_platform_interface",
       "rootUri": "file:///Users/goventure/development/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-4.5.3",
       "packageUri": "lib/",
@@ -230,7 +236,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2023-03-30T10:18:33.299181Z",
+  "generated": "2023-03-30T13:41:21.899281Z",
   "generator": "pub",
   "generatorVersion": "2.17.3"
 }
