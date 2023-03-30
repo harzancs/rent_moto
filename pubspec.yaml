@@ -38,8 +38,12 @@ dependencies:
   firebase_auth: ^4.3.0
   firebase_core: ^2.8.0
   firebase_core_dart: ^1.0.1
+<<<<<<< HEAD
   form_field_validator: ^1.1.0
   cloud_firestore: ^4.5.0
+=======
+  cloud_firestore: ^4.4.5
+>>>>>>> b56b95925892d251ac0ac6f65b9e3c8a33fccb4a
 
 dev_dependencies:
   flutter_test:
