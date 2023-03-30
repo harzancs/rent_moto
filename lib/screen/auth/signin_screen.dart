@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:rent_moto/constants/constants.dart';
+import 'package:rent_moto/other/widget/app_bar/white_bg_app_bar.dart';
 import 'package:rent_moto/other/widget/label.dart';
 import 'package:rent_moto/screen/screen.dart';
 
@@ -15,12 +16,11 @@ class SignInScreen extends StatefulWidget {
 class _SignInScreenState extends State<SignInScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-        color: COLOR_GREY_LIGHT,
-        width: MediaQuery.of(context).size.width,
-        height: MediaQuery.of(context).size.height,
-        padding: const EdgeInsets.symmetric(horizontal: 20),
+    return WhiteBgAppBar(
+      titlePreviousShow: false,
+      previousShow: false,
+      child: Padding(
+        padding: const EdgeInsets.all(10.0),
         child: Center(
           child: Card(
             elevation: 5,

@@ -40,7 +40,7 @@ class WhiteBgAppBar extends StatelessWidget {
       body: Container(
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
-        color: COLOR_GREY_LIGHT,
+        color: COLOR_GREY_LIGHT.withOpacity(0.3),
         child: SafeArea(
           child: Column(
             children: [
