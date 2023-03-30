@@ -16,7 +16,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  CollectionReference motor = FirebaseFirestore.instance.collection('motors');
+  CollectionReference motor = FirebaseFirestore.instance.collection('motor');
   var scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override

@@ -173,51 +173,7 @@ class _SignInScreenState extends State<SignInScreen> {
                                 ),
                                 
                               ),
-                              CircleAvatar(
-                        radius: 30,
-                        backgroundColor: Color(0xff4c505b),
-                        child: IconButton(
-                            color: Colors.white,
-                            onPressed: () {
-                              siginWithEmail(_email.text, _password.text);
-                              var route = MaterialPageRoute(
-                                builder: (context) => const HomeScreen(),
-                              );
-                              Navigator.push(context, route);
-                            },
-                            icon: const Icon(
-                              Icons.arrow_forward,
-                            )),
-                      )
-                        //       CircleAvatar(
-                        //   radius: 30,
-                        //   backgroundColor: Colors.white54,
-                        //   child: IconButton(
-                        //       color: Colors.black,
-                        //       onPressed: () async {
-                        //         if (_FormKey.currentState!.validate()) {
-                        //           _FormKey.currentState!.save();
-                        //           try {
-                        //             await FirebaseAuth.instance
-                        //                 .signInWithEmailAndPassword(
-                        //                     email: _email.text,
-                        //                     password: _password.text)
-                        //                 .then((value) {
-                        //               _FormKey.currentState!.reset();
-                        //               Navigator.pushReplacement(context,
-                        //                   MaterialPageRoute(builder: (context) {
-                        //                 return const HomeScreen();
-                        //               }));
-                        //             });
-                        //           } on FirebaseAuthException catch (e) {
-                        //             print(e.code);
-                        //           }
-                        //         }
-                        //       },
-                        //       icon: const Icon(
-                        //         Icons.arrow_forward,
-                        //       )),
-                        // )
+                             
                             ],
                           ),
                         ],
