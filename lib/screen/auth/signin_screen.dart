@@ -1,3 +1,5 @@
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -5,6 +7,8 @@ import 'package:rent_moto/constants/constants.dart';
 import 'package:rent_moto/other/widget/app_bar/white_bg_app_bar.dart';
 import 'package:rent_moto/other/widget/label.dart';
 import 'package:rent_moto/screen/screen.dart';
+
+import '../../firebase/authen.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({Key? key}) : super(key: key);
@@ -19,7 +23,10 @@ class _SignInScreenState extends State<SignInScreen> {
   TextEditingController _email = TextEditingController();
   TextEditingController _password = TextEditingController();
 
+  LoginProfile loginprofile = LoginProfile();
+  final Future<FirebaseApp> firebase = Firebase.initializeApp();
 
+  
   @override
   Widget build(BuildContext context) {
     return WhiteBgAppBar(
@@ -63,6 +70,10 @@ class _SignInScreenState extends State<SignInScreen> {
                               ),
                               borderRadius: BorderRadius.circular(10)),
                           child: TextFormField(
+                            keyboardType: TextInputType.emailAddress,
+                            onSaved: (String? email) {
+                              loginprofile.email = email;
+                            },
                             decoration: const InputDecoration(
                               icon: Icon(Icons.email),
                               labelText: 'Email',
@@ -81,6 +92,9 @@ class _SignInScreenState extends State<SignInScreen> {
                               ),
                               borderRadius: BorderRadius.circular(10)),
                           child: TextFormField(
+                            onSaved: (String? password) {
+                              loginprofile.password = password;
+                            },
                             decoration: const InputDecoration(
                               icon: Icon(Icons.key),
                               labelText: 'Password',
@@ -116,15 +130,19 @@ class _SignInScreenState extends State<SignInScreen> {
                                         builder: (context) =>
                                             const HomeScreen()));
                               },
+                              
                               child: Container(
                                 padding: const EdgeInsets.symmetric(
-                                    horizontal: 20, vertical: 10),
+                                  horizontal: 20, vertical: 10
+                                ),
                                 decoration: BoxDecoration(
+                                  color: COLOR_CYAN,
+                                  border: Border.all(
                                     color: COLOR_CYAN,
-                                    border: Border.all(
-                                      color: COLOR_CYAN,
-                                    ),
-                                    borderRadius: BorderRadius.circular(10)),
+                                  ),
+                                  borderRadius: BorderRadius.circular(10)
+                                ),
+                                
                                 child: const Label(
                                   "เข้าสู่ระบบ",
                                 ),
@@ -144,4 +162,11 @@ class _SignInScreenState extends State<SignInScreen> {
       ),
     );
   }
+}
+
+class LoginProfile {
+  String? email;
+  String? password;
+
+  LoginProfile({this.email, this.password});
 }
