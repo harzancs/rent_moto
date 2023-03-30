@@ -1,6 +1,8 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:3:4-34:19
+INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:6:5-21:19
+MERGED from [:firebase_app_check] /Users/goventure/Documents/rent_moto/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_app_check] /Users/goventure/Documents/rent_moto/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_auth] /Users/goventure/Documents/rent_moto/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_auth] /Users/goventure/Documents/rent_moto/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:cloud_firestore] /Users/goventure/Documents/rent_moto/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
@@ -13,16 +15,26 @@ MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/goventure/.gradle/
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/goventure/.gradle/caches/transforms-3/2562145963d9475d1f475b0525d7959e/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:26:5-71:19
 MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/goventure/.gradle/caches/transforms-3/e52b5bf0fb4b2e6bbc4c9a32122f143d/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:15:5-23:19
 MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/goventure/.gradle/caches/transforms-3/e52b5bf0fb4b2e6bbc4c9a32122f143d/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0eaeda385cc1fd6bfbbec625b3c5065c/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0eaeda385cc1fd6bfbbec625b3c5065c/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0e58049dc8c75c810dfd2195b3ce4ff4/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0e58049dc8c75c810dfd2195b3ce4ff4/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /Users/goventure/.gradle/caches/transforms-3/94be1290fd7dfa0ba69c5be2a23bedc8/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /Users/goventure/.gradle/caches/transforms-3/94be1290fd7dfa0ba69c5be2a23bedc8/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-appcheck:16.1.1] /Users/goventure/.gradle/caches/transforms-3/30d158650d44fe60ef4015ae6d1d2fd9/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-appcheck:16.1.1] /Users/goventure/.gradle/caches/transforms-3/30d158650d44fe60ef4015ae6d1d2fd9/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:23:5-31:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/goventure/.gradle/caches/transforms-3/c91143cb0df772c11a57e4cfb890eef2/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/goventure/.gradle/caches/transforms-3/c91143cb0df772c11a57e4cfb890eef2/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/goventure/.gradle/caches/transforms-3/ba1c972cde742ee9b7e0eb81ab868a81/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/goventure/.gradle/caches/transforms-3/ba1c972cde742ee9b7e0eb81ab868a81/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /Users/goventure/.gradle/caches/transforms-3/4b42bf3703efdef53d8ffcfbfc0e08e2/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /Users/goventure/.gradle/caches/transforms-3/4b42bf3703efdef53d8ffcfbfc0e08e2/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:23:5-20
 MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/goventure/.gradle/caches/transforms-3/17066b7e6fa20948cc648929e962014e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
 MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/goventure/.gradle/caches/transforms-3/17066b7e6fa20948cc648929e962014e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/goventure/.gradle/caches/transforms-3/a55617d52197ea48d9cdc78220ef6faa/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/goventure/.gradle/caches/transforms-3/a55617d52197ea48d9cdc78220ef6faa/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:18.0.0] /Users/goventure/.gradle/caches/transforms-3/dcabb8432b05507197541f9179d0f91a/transformed/jetified-play-services-safetynet-18.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:18.0.0] /Users/goventure/.gradle/caches/transforms-3/dcabb8432b05507197541f9179d0f91a/transformed/jetified-play-services-safetynet-18.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/goventure/.gradle/caches/transforms-3/c313295b789e646a70f33814fc09f49c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/goventure/.gradle/caches/transforms-3/c313295b789e646a70f33814fc09f49c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.play:integrity:1.0.1] /Users/goventure/.gradle/caches/transforms-3/cad61fc86a3cc5199dcaaf42ec5d2297/transformed/jetified-integrity-1.0.1/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.0.1] /Users/goventure/.gradle/caches/transforms-3/cad61fc86a3cc5199dcaaf42ec5d2297/transformed/jetified-integrity-1.0.1/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/goventure/.gradle/caches/transforms-3/83a7c6be355ec3f162ce83f7fd6658ca/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/goventure/.gradle/caches/transforms-3/83a7c6be355ec3f162ce83f7fd6658ca/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/goventure/.gradle/caches/transforms-3/de08eee8392a6c862d07ccced4c0cdae/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
@@ -36,11 +48,12 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/gove
 	android:name
 		INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:1:1-35:12
-INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:1:1-35:12
-INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:1:1-35:12
-INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:1:1-35:12
-MERGED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:1:1-35:12
+ADDED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:1:1-22:12
+INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:1:1-22:12
+INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:1:1-22:12
+INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:1:1-22:12
+MERGED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:1:1-22:12
+MERGED from [:firebase_app_check] /Users/goventure/Documents/rent_moto/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_auth] /Users/goventure/Documents/rent_moto/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:cloud_firestore] /Users/goventure/Documents/rent_moto/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_core] /Users/goventure/Documents/rent_moto/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
@@ -49,13 +62,18 @@ MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/goventure/.gradle/
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/goventure/.gradle/caches/transforms-3/53abcf1aeb8fbabcdf028cc22facec69/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/goventure/.gradle/caches/transforms-3/2562145963d9475d1f475b0525d7959e/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:17:1-73:12
 MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/goventure/.gradle/caches/transforms-3/e52b5bf0fb4b2e6bbc4c9a32122f143d/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0eaeda385cc1fd6bfbbec625b3c5065c/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0e58049dc8c75c810dfd2195b3ce4ff4/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /Users/goventure/.gradle/caches/transforms-3/94be1290fd7dfa0ba69c5be2a23bedc8/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.firebase:firebase-appcheck:16.1.1] /Users/goventure/.gradle/caches/transforms-3/30d158650d44fe60ef4015ae6d1d2fd9/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:15:1-33:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/goventure/.gradle/caches/transforms-3/c91143cb0df772c11a57e4cfb890eef2/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/goventure/.gradle/caches/transforms-3/ba1c972cde742ee9b7e0eb81ab868a81/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /Users/goventure/.gradle/caches/transforms-3/4b42bf3703efdef53d8ffcfbfc0e08e2/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:15:1-25:12
 MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/goventure/.gradle/caches/transforms-3/17066b7e6fa20948cc648929e962014e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-safetynet:18.0.0] /Users/goventure/.gradle/caches/transforms-3/dcabb8432b05507197541f9179d0f91a/transformed/jetified-play-services-safetynet-18.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/goventure/.gradle/caches/transforms-3/04fe555fdb420e7a45086780b7f4dcfa/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/goventure/.gradle/caches/transforms-3/a55617d52197ea48d9cdc78220ef6faa/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/goventure/.gradle/caches/transforms-3/1fe335224ced4f2fbeab2e0fbb285016/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/goventure/.gradle/caches/transforms-3/c313295b789e646a70f33814fc09f49c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.play:integrity:1.0.1] /Users/goventure/.gradle/caches/transforms-3/cad61fc86a3cc5199dcaaf42ec5d2297/transformed/jetified-integrity-1.0.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/goventure/.gradle/caches/transforms-3/83a7c6be355ec3f162ce83f7fd6658ca/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/goventure/.gradle/caches/transforms-3/de08eee8392a6c862d07ccced4c0cdae/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/goventure/.gradle/caches/transforms-3/cf5f54da287019a6b9b04b0a694a16b6/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -70,10 +88,10 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/goventure/.gradle/cach
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/goventure/.gradle/caches/transforms-3/db18658c70aa625b07d6baa47da8e53f/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/goventure/.gradle/caches/transforms-3/d35e8683a227b542ec9bc9c76f10da87/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/goventure/.gradle/caches/transforms-3/69c6a175ae509551a19c321a2b1a4812/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/goventure/.gradle/caches/transforms-3/30529f1843a63130357934f76a41ac75/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/goventure/.gradle/caches/transforms-3/b2e5552f25ff4fb4c71a99049836590f/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/goventure/.gradle/caches/transforms-3/b777437e50b6a4350ebecfe1a56f6d7c/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/goventure/.gradle/caches/transforms-3/30529f1843a63130357934f76a41ac75/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/goventure/.gradle/caches/transforms-3/802ed03ddc175185a250579c281454be/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/goventure/.gradle/caches/transforms-3/b777437e50b6a4350ebecfe1a56f6d7c/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/goventure/.gradle/caches/transforms-3/b6fc7d8f5854fdcfbf1e252cd651c3f5/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/goventure/.gradle/caches/transforms-3/730298ec7621abbd234b2da0ec5f5414/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/goventure/.gradle/caches/transforms-3/eb711dbd04f5a71f3d7a27f998ba803b/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
@@ -83,23 +101,45 @@ INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/debug/Android
 INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/debug/AndroidManifest.xml:1:1-8:12
 INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/debug/AndroidManifest.xml:1:1-8:12
 	package
-		ADDED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:2:5-36
+		ADDED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:1:70-101
 		INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:1:1-35:12
+		ADDED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:1:1-22:12
 		INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:1:1-35:12
+		ADDED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:1:1-22:12
 		INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:3:5-66
+MERGED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:3:5-66
+MERGED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:3:5-66
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/goventure/.gradle/caches/transforms-3/2562145963d9475d1f475b0525d7959e/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/goventure/.gradle/caches/transforms-3/2562145963d9475d1f475b0525d7959e/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/goventure/.gradle/caches/transforms-3/e52b5bf0fb4b2e6bbc4c9a32122f143d/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/goventure/.gradle/caches/transforms-3/e52b5bf0fb4b2e6bbc4c9a32122f143d/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:3:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:4:5-79
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/goventure/.gradle/caches/transforms-3/2562145963d9475d1f475b0525d7959e/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/goventure/.gradle/caches/transforms-3/2562145963d9475d1f475b0525d7959e/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/goventure/.gradle/caches/transforms-3/e52b5bf0fb4b2e6bbc4c9a32122f143d/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/goventure/.gradle/caches/transforms-3/e52b5bf0fb4b2e6bbc4c9a32122f143d/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:12:5-79
+MERGED from [io.grpc:grpc-android:1.50.2] /Users/goventure/.gradle/caches/transforms-3/623ad0e60456262ab7b851bb702e3c3c/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.50.2] /Users/goventure/.gradle/caches/transforms-3/623ad0e60456262ab7b851bb702e3c3c/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml:4:22-76
 uses-sdk
 INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_app_check] /Users/goventure/Documents/rent_moto/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_app_check] /Users/goventure/Documents/rent_moto/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_auth] /Users/goventure/Documents/rent_moto/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_auth] /Users/goventure/Documents/rent_moto/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:cloud_firestore] /Users/goventure/Documents/rent_moto/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
@@ -116,20 +156,30 @@ MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/goventure/.gradle/
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/goventure/.gradle/caches/transforms-3/2562145963d9475d1f475b0525d7959e/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/goventure/.gradle/caches/transforms-3/e52b5bf0fb4b2e6bbc4c9a32122f143d/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/goventure/.gradle/caches/transforms-3/e52b5bf0fb4b2e6bbc4c9a32122f143d/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0eaeda385cc1fd6bfbbec625b3c5065c/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0eaeda385cc1fd6bfbbec625b3c5065c/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0e58049dc8c75c810dfd2195b3ce4ff4/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0e58049dc8c75c810dfd2195b3ce4ff4/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /Users/goventure/.gradle/caches/transforms-3/94be1290fd7dfa0ba69c5be2a23bedc8/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /Users/goventure/.gradle/caches/transforms-3/94be1290fd7dfa0ba69c5be2a23bedc8/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck:16.1.1] /Users/goventure/.gradle/caches/transforms-3/30d158650d44fe60ef4015ae6d1d2fd9/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck:16.1.1] /Users/goventure/.gradle/caches/transforms-3/30d158650d44fe60ef4015ae6d1d2fd9/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/goventure/.gradle/caches/transforms-3/c91143cb0df772c11a57e4cfb890eef2/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/goventure/.gradle/caches/transforms-3/c91143cb0df772c11a57e4cfb890eef2/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/goventure/.gradle/caches/transforms-3/ba1c972cde742ee9b7e0eb81ab868a81/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/goventure/.gradle/caches/transforms-3/ba1c972cde742ee9b7e0eb81ab868a81/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /Users/goventure/.gradle/caches/transforms-3/4b42bf3703efdef53d8ffcfbfc0e08e2/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /Users/goventure/.gradle/caches/transforms-3/4b42bf3703efdef53d8ffcfbfc0e08e2/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/goventure/.gradle/caches/transforms-3/17066b7e6fa20948cc648929e962014e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/goventure/.gradle/caches/transforms-3/17066b7e6fa20948cc648929e962014e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-safetynet:18.0.0] /Users/goventure/.gradle/caches/transforms-3/dcabb8432b05507197541f9179d0f91a/transformed/jetified-play-services-safetynet-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:18.0.0] /Users/goventure/.gradle/caches/transforms-3/dcabb8432b05507197541f9179d0f91a/transformed/jetified-play-services-safetynet-18.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/goventure/.gradle/caches/transforms-3/04fe555fdb420e7a45086780b7f4dcfa/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/goventure/.gradle/caches/transforms-3/04fe555fdb420e7a45086780b7f4dcfa/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/goventure/.gradle/caches/transforms-3/a55617d52197ea48d9cdc78220ef6faa/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/goventure/.gradle/caches/transforms-3/a55617d52197ea48d9cdc78220ef6faa/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/goventure/.gradle/caches/transforms-3/1fe335224ced4f2fbeab2e0fbb285016/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/goventure/.gradle/caches/transforms-3/1fe335224ced4f2fbeab2e0fbb285016/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/goventure/.gradle/caches/transforms-3/c313295b789e646a70f33814fc09f49c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/goventure/.gradle/caches/transforms-3/c313295b789e646a70f33814fc09f49c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.play:integrity:1.0.1] /Users/goventure/.gradle/caches/transforms-3/cad61fc86a3cc5199dcaaf42ec5d2297/transformed/jetified-integrity-1.0.1/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.0.1] /Users/goventure/.gradle/caches/transforms-3/cad61fc86a3cc5199dcaaf42ec5d2297/transformed/jetified-integrity-1.0.1/AndroidManifest.xml:4:5-44
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/goventure/.gradle/caches/transforms-3/83a7c6be355ec3f162ce83f7fd6658ca/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/goventure/.gradle/caches/transforms-3/83a7c6be355ec3f162ce83f7fd6658ca/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/goventure/.gradle/caches/transforms-3/de08eee8392a6c862d07ccced4c0cdae/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
@@ -158,14 +208,14 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/goventure/
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/goventure/.gradle/caches/transforms-3/d35e8683a227b542ec9bc9c76f10da87/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/goventure/.gradle/caches/transforms-3/69c6a175ae509551a19c321a2b1a4812/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/goventure/.gradle/caches/transforms-3/69c6a175ae509551a19c321a2b1a4812/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/goventure/.gradle/caches/transforms-3/30529f1843a63130357934f76a41ac75/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/goventure/.gradle/caches/transforms-3/30529f1843a63130357934f76a41ac75/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/goventure/.gradle/caches/transforms-3/b2e5552f25ff4fb4c71a99049836590f/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/goventure/.gradle/caches/transforms-3/b2e5552f25ff4fb4c71a99049836590f/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/goventure/.gradle/caches/transforms-3/b777437e50b6a4350ebecfe1a56f6d7c/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/goventure/.gradle/caches/transforms-3/b777437e50b6a4350ebecfe1a56f6d7c/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/goventure/.gradle/caches/transforms-3/30529f1843a63130357934f76a41ac75/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/goventure/.gradle/caches/transforms-3/30529f1843a63130357934f76a41ac75/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/goventure/.gradle/caches/transforms-3/802ed03ddc175185a250579c281454be/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/goventure/.gradle/caches/transforms-3/802ed03ddc175185a250579c281454be/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/goventure/.gradle/caches/transforms-3/b777437e50b6a4350ebecfe1a56f6d7c/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/goventure/.gradle/caches/transforms-3/b777437e50b6a4350ebecfe1a56f6d7c/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/goventure/.gradle/caches/transforms-3/b6fc7d8f5854fdcfbf1e252cd651c3f5/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/goventure/.gradle/caches/transforms-3/b6fc7d8f5854fdcfbf1e252cd651c3f5/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/goventure/.gradle/caches/transforms-3/730298ec7621abbd234b2da0ec5f5414/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
@@ -184,16 +234,10 @@ INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/debug/Android
 	android:minSdkVersion
 		INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/goventure/Documents/rent_moto/android/app/src/debug/AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from /Users/goventure/Documents/rent_moto/android/app/src/debug/AndroidManifest.xml:7:5-66
-MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/goventure/.gradle/caches/transforms-3/2562145963d9475d1f475b0525d7959e/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/goventure/.gradle/caches/transforms-3/2562145963d9475d1f475b0525d7959e/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/goventure/.gradle/caches/transforms-3/e52b5bf0fb4b2e6bbc4c9a32122f143d/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:13:5-67
-MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/goventure/.gradle/caches/transforms-3/e52b5bf0fb4b2e6bbc4c9a32122f143d/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:13:5-67
-	android:name
-		ADDED from /Users/goventure/Documents/rent_moto/android/app/src/debug/AndroidManifest.xml:7:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_auth] /Users/goventure/Documents/rent_moto/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+ADDED from [:firebase_app_check] /Users/goventure/Documents/rent_moto/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /Users/goventure/Documents/rent_moto/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /Users/goventure/Documents/rent_moto/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
 MERGED from [:cloud_firestore] /Users/goventure/Documents/rent_moto/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
 MERGED from [:cloud_firestore] /Users/goventure/Documents/rent_moto/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
 MERGED from [:firebase_core] /Users/goventure/Documents/rent_moto/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
@@ -202,6 +246,14 @@ MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/goventure/.gradle/
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/goventure/.gradle/caches/transforms-3/2562145963d9475d1f475b0525d7959e/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
 MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/goventure/.gradle/caches/transforms-3/e52b5bf0fb4b2e6bbc4c9a32122f143d/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:16:9-22:19
 MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/goventure/.gradle/caches/transforms-3/e52b5bf0fb4b2e6bbc4c9a32122f143d/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0eaeda385cc1fd6bfbbec625b3c5065c/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0eaeda385cc1fd6bfbbec625b3c5065c/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0e58049dc8c75c810dfd2195b3ce4ff4/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0e58049dc8c75c810dfd2195b3ce4ff4/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /Users/goventure/.gradle/caches/transforms-3/94be1290fd7dfa0ba69c5be2a23bedc8/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /Users/goventure/.gradle/caches/transforms-3/94be1290fd7dfa0ba69c5be2a23bedc8/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-appcheck:16.1.1] /Users/goventure/.gradle/caches/transforms-3/30d158650d44fe60ef4015ae6d1d2fd9/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-appcheck:16.1.1] /Users/goventure/.gradle/caches/transforms-3/30d158650d44fe60ef4015ae6d1d2fd9/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:24:9-30:19
 MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/goventure/.gradle/caches/transforms-3/17066b7e6fa20948cc648929e962014e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
 MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/goventure/.gradle/caches/transforms-3/17066b7e6fa20948cc648929e962014e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
 	android:exported
@@ -211,7 +263,13 @@ MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/goventure/.gradl
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/goventure/.gradle/caches/transforms-3/17066b7e6fa20948cc648929e962014e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
 	android:name
-		ADDED from [:firebase_auth] /Users/goventure/Documents/rent_moto/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+		ADDED from [:firebase_app_check] /Users/goventure/Documents/rent_moto/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.appcheck.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_app_check] /Users/goventure/Documents/rent_moto/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_app_check] /Users/goventure/Documents/rent_moto/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_app_check] /Users/goventure/Documents/rent_moto/build/firebase_app_check/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-127
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
 ADDED from [:firebase_auth] /Users/goventure/Documents/rent_moto/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 	android:value
@@ -242,14 +300,6 @@ ADDED from [androidx.window:window:1.0.0-beta04] /Users/goventure/.gradle/caches
 		ADDED from [androidx.window:window:1.0.0-beta04] /Users/goventure/.gradle/caches/transforms-3/53abcf1aeb8fbabcdf028cc22facec69/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
 	android:name
 		ADDED from [androidx.window:window:1.0.0-beta04] /Users/goventure/.gradle/caches/transforms-3/53abcf1aeb8fbabcdf028cc22facec69/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/goventure/.gradle/caches/transforms-3/2562145963d9475d1f475b0525d7959e/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/goventure/.gradle/caches/transforms-3/e52b5bf0fb4b2e6bbc4c9a32122f143d/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:12:5-79
-MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/goventure/.gradle/caches/transforms-3/e52b5bf0fb4b2e6bbc4c9a32122f143d/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:12:5-79
-MERGED from [io.grpc:grpc-android:1.50.2] /Users/goventure/.gradle/caches/transforms-3/623ad0e60456262ab7b851bb702e3c3c/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:9:5-79
-MERGED from [io.grpc:grpc-android:1.50.2] /Users/goventure/.gradle/caches/transforms-3/623ad0e60456262ab7b851bb702e3c3c/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:9:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/goventure/.gradle/caches/transforms-3/2562145963d9475d1f475b0525d7959e/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:22-76
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/goventure/.gradle/caches/transforms-3/2562145963d9475d1f475b0525d7959e/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
 	android:excludeFromRecents
@@ -310,6 +360,30 @@ ADDED from [com.google.firebase:firebase-firestore:24.4.3] /Users/goventure/.gra
 		ADDED from [com.google.firebase:firebase-firestore:24.4.3] /Users/goventure/.gradle/caches/transforms-3/e52b5bf0fb4b2e6bbc4c9a32122f143d/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:21:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-firestore:24.4.3] /Users/goventure/.gradle/caches/transforms-3/e52b5bf0fb4b2e6bbc4c9a32122f143d/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:20:17-111
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.safetynet.FirebaseAppCheckSafetyNetRegistrar
+ADDED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0eaeda385cc1fd6bfbbec625b3c5065c/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0eaeda385cc1fd6bfbbec625b3c5065c/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck-safetynet:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0eaeda385cc1fd6bfbbec625b3c5065c/transformed/jetified-firebase-appcheck-safetynet-16.1.1/AndroidManifest.xml:28:17-136
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.debug.FirebaseAppCheckDebugRegistrar
+ADDED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0e58049dc8c75c810dfd2195b3ce4ff4/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0e58049dc8c75c810dfd2195b3ce4ff4/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck-debug:16.1.1] /Users/goventure/.gradle/caches/transforms-3/0e58049dc8c75c810dfd2195b3ce4ff4/transformed/jetified-firebase-appcheck-debug-16.1.1/AndroidManifest.xml:28:17-128
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.playintegrity.FirebaseAppCheckPlayIntegrityRegistrar
+ADDED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /Users/goventure/.gradle/caches/transforms-3/94be1290fd7dfa0ba69c5be2a23bedc8/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /Users/goventure/.gradle/caches/transforms-3/94be1290fd7dfa0ba69c5be2a23bedc8/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck-playintegrity:16.1.1] /Users/goventure/.gradle/caches/transforms-3/94be1290fd7dfa0ba69c5be2a23bedc8/transformed/jetified-firebase-appcheck-playintegrity-16.1.1/AndroidManifest.xml:28:17-144
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:16.1.1] /Users/goventure/.gradle/caches/transforms-3/30d158650d44fe60ef4015ae6d1d2fd9/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:16.1.1] /Users/goventure/.gradle/caches/transforms-3/30d158650d44fe60ef4015ae6d1d2fd9/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:16.1.1] /Users/goventure/.gradle/caches/transforms-3/30d158650d44fe60ef4015ae6d1d2fd9/transformed/jetified-firebase-appcheck-16.1.1/AndroidManifest.xml:28:17-117
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/goventure/.gradle/caches/transforms-3/17066b7e6fa20948cc648929e962014e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
 	android:authorities

@@ -46,12 +46,12 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'xxxxxxxxxxxxxxxxxxx',
-    appId: 'xxxxxxxxxxxxxxxxxxx',
-    messagingSenderId: 'xxxxxxxxxxxxxxxxxxx',
-    projectId: 'xxxxxxxxxxxxxxxxxxx',
-    databaseURL: 'xxxxxxxxxxxxxxxxxxx',
-    storageBucket: 'xxxxxxxxxxxxxxxxxxx',
+    apiKey: 'AIzaSyBBDYfV6on6RWBLMXihdpIoEE98_92obQs',
+    appId: '1:838120960141:android:933ab0bd516b45da16b2c4',
+    messagingSenderId: '',
+    projectId: 'moto-d1913',
+    databaseURL: 'https://moto-d1913.europe-west1.firebasedatabase.app',
+    storageBucket: 'moto-d1913.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
