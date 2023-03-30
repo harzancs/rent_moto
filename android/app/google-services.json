@@ -1,0 +1,32 @@
+{
+    "project_info": {
+        "project_number": "838120960141",
+        "firebase_url": "https://moto-d1913-default-rtdb.firebaseio.com",
+        "project_id": "moto-d1913",
+        "storage_bucket": "moto-d1913.appspot.com"
+    },
+    "client": [{
+        "client_info": {
+            "mobilesdk_app_id": "1:838120960141:android:933ab0bd516b45da16b2c4",
+            "android_client_info": {
+                "package_name": "com.example.rent_moto"
+            }
+        },
+        "oauth_client": [{
+            "client_id": "838120960141-hfn9ngrv9dnntf875m4aaajt48bts1ln.apps.googleusercontent.com",
+            "client_type": 3
+        }],
+        "api_key": [{
+            "current_key": "AIzaSyDpZK1xODsleZG73VB0y-om94-RmRdTqp0"
+        }],
+        "services": {
+            "appinvite_service": {
+                "other_platform_oauth_client": [{
+                    "client_id": "838120960141-hfn9ngrv9dnntf875m4aaajt48bts1ln.apps.googleusercontent.com",
+                    "client_type": 3
+                }]
+            }
+        }
+    }],
+    "configuration_version": "1"
+}

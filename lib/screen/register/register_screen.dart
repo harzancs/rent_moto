@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:intl/intl.dart';
 import 'package:rent_moto/constants/constants.dart';
+import 'package:rent_moto/other/util/is.dart';
 import 'package:rent_moto/other/widget/app_bar/white_bg_app_bar.dart';
 import 'package:rent_moto/other/widget/label.dart';
 import 'package:rent_moto/screen/screen.dart';
@@ -50,11 +52,12 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     Container(
                         width: double.infinity,
                         height: 50,
-                        color: COLOR_CYAN,
+                        color: COLOR_BLUE,
                         alignment: Alignment.center,
                         child: const Label(
                           "ข้อมูลส่วนตัว",
                           fontSize: FONT_HECTO,
+                          color: COLOR_WHITE,
                         )),
                     Container(
                       padding: const EdgeInsets.all(10),
@@ -149,28 +152,42 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           const SizedBox(
                             height: 10,
                           ),
-                          Container(
-                            padding: const EdgeInsets.symmetric(horizontal: 5),
-                            decoration: BoxDecoration(
-                                border: Border.all(
-                                  color: COLOR_GREY,
+                          GestureDetector(
+                            onTap: () async {
+                              if (!Is.notNullOrBlank(
+                                  _birthDayController.text)) {
+                                _birthDayController.text =
+                                    await _selectDate(DateTime.now());
+                                return null;
+                              }
+                              _birthDayController.text = await _selectDate(
+                                  DateTime.parse(_birthDayController.text));
+                            },
+                            child: Container(
+                              padding:
+                                  const EdgeInsets.symmetric(horizontal: 5),
+                              decoration: BoxDecoration(
+                                  border: Border.all(
+                                    color: COLOR_GREY,
+                                  ),
+                                  borderRadius: BorderRadius.circular(10)),
+                              child: TextFormField(
+                                enabled: false,
+                                controller: _birthDayController,
+                                keyboardType: TextInputType.text,
+                                textInputAction: TextInputAction.next,
+                                style: const TextStyle(
+                                  fontSize: FONT_DECA,
+                                  fontFamily: FONT_FAMILY,
                                 ),
-                                borderRadius: BorderRadius.circular(10)),
-                            child: TextFormField(
-                              controller: _birthDayController,
-                              keyboardType: TextInputType.text,
-                              textInputAction: TextInputAction.next,
-                              style: const TextStyle(
-                                fontSize: FONT_DECA,
-                                fontFamily: FONT_FAMILY,
-                              ),
-                              decoration: const InputDecoration(
-                                labelStyle: TextStyle(
-                                    fontFamily: FONT_FAMILY,
-                                    fontSize: FONT_BASE),
-                                icon: Icon(Icons.cake),
-                                labelText: 'วันเดือนปี เกิด',
-                                border: InputBorder.none,
+                                decoration: const InputDecoration(
+                                  labelStyle: TextStyle(
+                                      fontFamily: FONT_FAMILY,
+                                      fontSize: FONT_BASE),
+                                  icon: Icon(Icons.cake),
+                                  labelText: 'วันเดือนปี เกิด',
+                                  border: InputBorder.none,
+                                ),
                               ),
                             ),
                           ),
@@ -250,10 +267,11 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     Container(
                         width: double.infinity,
                         height: 50,
-                        color: COLOR_CYAN,
+                        color: COLOR_BLUE,
                         alignment: Alignment.center,
                         child: const Label(
                           "ที่อยู่ที่สามารถติดต่อได้",
+                          color: COLOR_WHITE,
                           fontSize: FONT_HECTO,
                         )),
                     Container(
@@ -425,10 +443,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       padding: const EdgeInsets.symmetric(
                           horizontal: 50, vertical: 10),
                       decoration: BoxDecoration(
-                        color: COLOR_CYAN,
-                        border: Border.all(
-                          color: COLOR_CYAN,
-                        ),
+                        color: COLOR_BLUE,
                         borderRadius: BorderRadius.circular(10),
                         boxShadow: const [
                           BoxShadow(
@@ -441,6 +456,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       ),
                       child: const Label(
                         "ตกลง",
+                        color: COLOR_WHITE,
                       ),
                     ),
                   ),
@@ -454,5 +470,15 @@ class _RegisterScreenState extends State<RegisterScreen> {
         ),
       ),
     );
+  }
+
+  _selectDate(DateTime dateTime) async {
+    var now = DateTime.now();
+    DateTime? pickedDate = await showDatePicker(
+        context: context,
+        initialDate: dateTime,
+        firstDate: DateTime(now.year - 100),
+        lastDate: DateTime.now());
+    return DateFormat("yyyy-MM-dd").format(pickedDate!);
   }
 }

@@ -1,0 +1,40 @@
+{
+    "project_info": {
+        "project_number": "838120960141",
+        "project_id": "moto-d1913",
+        "storage_bucket": "moto-d1913.appspot.com"
+    },
+    "client": [{
+        "client_info": {
+            "mobilesdk_app_id": "1:838120960141:android:09b632b08a65ba8c16b2c4",
+            "android_client_info": {
+                "package_name": "com.example.rent_moto"
+            }
+        },
+        "oauth_client": [{
+                "client_id": "838120960141-jgtn1q2aplv4s2i7o6ptu6opj7klq0lk.apps.googleusercontent.com",
+                "client_type": 1,
+                "android_info": {
+                    "package_name": "com.example.rent_moto",
+                    "certificate_hash": "03dd4e812b2f4e086bb9196d35ea9280f47a9e54"
+                }
+            },
+            {
+                "client_id": "838120960141-hfn9ngrv9dnntf875m4aaajt48bts1ln.apps.googleusercontent.com",
+                "client_type": 3
+            }
+        ],
+        "api_key": [{
+            "current_key": "AIzaSyDpZK1xODsleZG73VB0y-om94-RmRdTqp0"
+        }],
+        "services": {
+            "appinvite_service": {
+                "other_platform_oauth_client": [{
+                    "client_id": "838120960141-hfn9ngrv9dnntf875m4aaajt48bts1ln.apps.googleusercontent.com",
+                    "client_type": 3
+                }]
+            }
+        }
+    }],
+    "configuration_version": "1"
+}

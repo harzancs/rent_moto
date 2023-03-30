@@ -12,12 +12,12 @@
         "source": "/Users/goventure/Documents/rent_moto/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/goventure/Documents/rent_moto/build/app/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/goventure/Documents/rent_moto/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/goventure/Documents/rent_moto/build/app/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/goventure/Documents/rent_moto/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/goventure/Documents/rent_moto/build/app/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/goventure/Documents/rent_moto/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/goventure/Documents/rent_moto/build/app/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",

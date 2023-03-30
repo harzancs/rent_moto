@@ -173,6 +173,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                         color: COLOR_CYAN,
                                       ),
                                       borderRadius: BorderRadius.circular(10)),
+                                  
                                   child: const Label(
                                     "ตกลง",
                                   ),
