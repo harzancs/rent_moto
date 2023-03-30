@@ -14,6 +14,12 @@ class SignInScreen extends StatefulWidget {
 }
 
 class _SignInScreenState extends State<SignInScreen> {
+
+  final _FormKey = GlobalKey<FormState>();
+  TextEditingController _email = TextEditingController();
+  TextEditingController _password = TextEditingController();
+
+
   @override
   Widget build(BuildContext context) {
     return WhiteBgAppBar(
@@ -116,6 +122,7 @@ class _SignInScreenState extends State<SignInScreen> {
                                 child: const Label(
                                   "เข้าสู่ระบบ",
                                 ),
+                                
                               ),
                             ),
                           ],
