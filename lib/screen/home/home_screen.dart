@@ -224,13 +224,23 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               ListTile(
                 leading: const Icon(Icons.book_outlined),
-                title: const Label('การจอง'),
-                onTap: () {},
+                title: const Label('รายการจอง'),
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const BookingListScreen(
+                                isNotSusscess: true,
+                              )));
+                },
               ),
               ListTile(
                 leading: const Icon(Icons.logout_outlined),
                 title: const Label('ออกจากระบบ'),
-                onTap: () {},
+                onTap: () {
+                  Navigator.pop(context);
+                },
               ),
             ],
           ))

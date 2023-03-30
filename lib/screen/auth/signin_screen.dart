@@ -36,11 +36,12 @@ class _SignInScreenState extends State<SignInScreen> {
                   Container(
                       width: double.infinity,
                       height: 50,
-                      color: COLOR_CYAN,
+                      color: COLOR_BLUE,
                       alignment: Alignment.center,
                       child: const Label(
                         "เข้าสู่ระบบ",
                         fontSize: FONT_HECTO,
+                        color: COLOR_WHITE,
                       )),
                   Container(
                     padding: const EdgeInsets.all(20),
@@ -114,13 +115,11 @@ class _SignInScreenState extends State<SignInScreen> {
                                 padding: const EdgeInsets.symmetric(
                                     horizontal: 20, vertical: 10),
                                 decoration: BoxDecoration(
-                                    color: COLOR_CYAN,
-                                    border: Border.all(
-                                      color: COLOR_CYAN,
-                                    ),
+                                    color: COLOR_BLUE,
                                     borderRadius: BorderRadius.circular(10)),
                                 child: const Label(
                                   "เข้าสู่ระบบ",
+                                  color: COLOR_WHITE,
                                 ),
                               ),
                             ),
