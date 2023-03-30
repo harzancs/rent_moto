@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #Thu Mar 30 18:22:04 ICT 2023
 base.0=D\:\\flutter64\\moto_rent\\rent_moto\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+=======
+#Thu Mar 30 20:28:26 ICT 2023
+base.0=/Users/goventure/Documents/rent_moto/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+>>>>>>> d4e27578c31597cf208ae0522eb82a26874ad2c5
 renamed.0=classes.dex
 path.0=classes.dex

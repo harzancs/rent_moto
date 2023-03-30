@@ -22,8 +22,11 @@ class _SignInScreenState extends State<SignInScreen> {
   final TextEditingController _email = TextEditingController();
   final TextEditingController _password = TextEditingController();
 
+  final _FormKey = GlobalKey<FormState>();
 
-  
+  LoginProfile loginprofile = LoginProfile();
+  final Future<FirebaseApp> firebase = Firebase.initializeApp();
+
   @override
   Widget build(BuildContext context) {
     return WhiteBgAppBar(
@@ -148,11 +151,19 @@ class _SignInScreenState extends State<SignInScreen> {
                     ),
                   ),
                 ],
-              ),
-            ),
-          ),
+              )
+            )
+          )
         ),
       ),
     );
   }
 }
+
+class LoginProfile {
+  String? email;
+  String? password;
+
+  LoginProfile({this.email, this.password});
+}
+

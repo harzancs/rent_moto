@@ -74,6 +74,12 @@
       "languageVersion": "2.16"
     },
     {
+      "name": "firebase_core_dart",
+      "rootUri": "file:///C:/Users/66937/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core_dart-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "firebase_core_platform_interface",
       "rootUri": "file:///C:/Users/66937/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core_platform_interface-4.5.3",
       "packageUri": "lib/",
@@ -224,7 +230,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2023-03-30T10:23:28.452057Z",
+  "generated": "2023-03-30T14:02:06.308025Z",
   "generator": "pub",
   "generatorVersion": "2.19.5"
 }
