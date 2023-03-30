@@ -62,7 +62,7 @@ class WhiteBgAppBar extends StatelessWidget {
                           ? GestureDetector(
                               onTap: () {
                                 Is.notNull(onPressBack)
-                                    ? onPressBack
+                                    ? onPressBack!.call()
                                     : Navigator.pop(context);
                               },
                               child: Container(
