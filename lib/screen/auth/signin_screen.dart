@@ -109,7 +109,13 @@ class _SignInScreenState extends State<SignInScreen> {
                               ),
                             ),
                             GestureDetector(
-                              onTap: () {},
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) =>
+                                            const HomeScreen()));
+                              },
                               child: Container(
                                 padding: const EdgeInsets.symmetric(
                                     horizontal: 20, vertical: 10),
