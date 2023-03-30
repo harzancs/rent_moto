@@ -123,12 +123,33 @@ class _SignInScreenState extends State<SignInScreen> {
                               ),
                             ),
                             GestureDetector(
-                              onTap: () {
-                                Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                        builder: (context) =>
-                                            const HomeScreen()));
+                              // onTap: () {
+                              //   Navigator.push(
+                              //       context,
+                              //       MaterialPageRoute(
+                              //           builder: (context) =>
+                              //               const HomeScreen()));
+                              // },
+                              onTap: () async {
+                                if (_FormKey.currentState!.validate()) {
+                                  _FormKey.currentState!.save();
+                                  try {
+                                    await FirebaseAuth.instance
+                                        .signInWithEmailAndPassword(
+                                            email: loginprofile.email!,
+                                            password: loginprofile.password!)
+                                        .then((value) {
+                                      _FormKey.currentState!.reset();
+                                      Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                            builder: (context) =>
+                                                const HomeScreen()));
+                                    });
+                                  } on FirebaseAuthException catch (e) {
+                                    print(e.toString());
+                                  }
+                                }
                               },
                               
                               child: Container(
