@@ -1,10 +1,12 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:form_field_validator/form_field_validator.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:rent_moto/constants/constants.dart';
 import 'package:rent_moto/firebase/authen.dart';
+
 import 'package:rent_moto/other/widget/app_bar/white_bg_app_bar.dart';
 import 'package:rent_moto/other/widget/label.dart';
 import 'package:rent_moto/screen/screen.dart';
@@ -19,10 +21,9 @@ class SignInScreen extends StatefulWidget {
 
 class _SignInScreenState extends State<SignInScreen> {
 
-  final TextEditingController _email = TextEditingController();
-  final TextEditingController _password = TextEditingController();
-
   final _FormKey = GlobalKey<FormState>();
+  TextEditingController _email = TextEditingController();
+  TextEditingController _password = TextEditingController();
 
   LoginProfile loginprofile = LoginProfile();
   final Future<FirebaseApp> firebase = Firebase.initializeApp();
@@ -58,6 +59,7 @@ class _SignInScreenState extends State<SignInScreen> {
                   Container(
                     padding: const EdgeInsets.all(20),
                     child: Form(
+                      key: _FormKey,
                       child: Column(
                         children: [
                           const SizedBox(
@@ -71,7 +73,15 @@ class _SignInScreenState extends State<SignInScreen> {
                                 ),
                                 borderRadius: BorderRadius.circular(10)),
                             child: TextFormField(
-                              controller: _email,
+                              // controller: _email,
+                              validator: MultiValidator([
+                                RequiredValidator(errorText: "กรุณาป้อนอีเมล"),
+                                EmailValidator(errorText: "รูปแบบอีเมลไม่ถูกต้อง")
+                              ]),
+                              keyboardType: TextInputType.emailAddress,
+                              onSaved: (String? email) {
+                                loginprofile.email = email;
+                              },
                               decoration: const InputDecoration(
                                 icon: Icon(Icons.email),
                                 labelText: 'Email',
@@ -90,7 +100,11 @@ class _SignInScreenState extends State<SignInScreen> {
                                 ),
                                 borderRadius: BorderRadius.circular(10)),
                             child: TextFormField(
-                              controller: _password,
+                              // controller: _password,
+                              validator: RequiredValidator(errorText: "กรุณาป้อนรหัสผ่าน"),
+                              onSaved: (String? password) {
+                                loginprofile.password = password;
+                              },
                               decoration: const InputDecoration(
                                 icon: Icon(Icons.key),
                                 labelText: 'Password',
@@ -120,12 +134,26 @@ class _SignInScreenState extends State<SignInScreen> {
                               ),
                               GestureDetector(
                                 onTap: () async {
-                                  siginWithEmail(_email.text, _password.text);
-                                  var route = MaterialPageRoute(
-                                    builder: (context) => const HomeScreen(),
-                                  );
-                                  Navigator.push(context, route);
+                                  if (_FormKey.currentState!.validate()) {
+                                  _FormKey.currentState!.save();
+                                  try {
+                                    await FirebaseAuth.instance
+                                        .signInWithEmailAndPassword(
+                                            email: loginprofile.email!,
+                                            password: loginprofile.password!)
+                                        .then((value) {
+                                      _FormKey.currentState!.reset();
+                                      Navigator.push(context,
+                                          MaterialPageRoute(builder: (context) {
+                                        return const HomeScreen();
+                                      }));
+                                    });
+                                  } on FirebaseAuthException catch (e) {
+                                    print(e.code);
+                                  }
+                                }
                                 },
+                                
                                 child: Container(
                                   padding: const EdgeInsets.symmetric(
                                     horizontal: 20, vertical: 10
@@ -143,7 +171,53 @@ class _SignInScreenState extends State<SignInScreen> {
                                   ),
                                   
                                 ),
+                                
                               ),
+                              CircleAvatar(
+                        radius: 30,
+                        backgroundColor: Color(0xff4c505b),
+                        child: IconButton(
+                            color: Colors.white,
+                            onPressed: () {
+                              siginWithEmail(_email.text, _password.text);
+                              var route = MaterialPageRoute(
+                                builder: (context) => const HomeScreen(),
+                              );
+                              Navigator.push(context, route);
+                            },
+                            icon: const Icon(
+                              Icons.arrow_forward,
+                            )),
+                      )
+                        //       CircleAvatar(
+                        //   radius: 30,
+                        //   backgroundColor: Colors.white54,
+                        //   child: IconButton(
+                        //       color: Colors.black,
+                        //       onPressed: () async {
+                        //         if (_FormKey.currentState!.validate()) {
+                        //           _FormKey.currentState!.save();
+                        //           try {
+                        //             await FirebaseAuth.instance
+                        //                 .signInWithEmailAndPassword(
+                        //                     email: _email.text,
+                        //                     password: _password.text)
+                        //                 .then((value) {
+                        //               _FormKey.currentState!.reset();
+                        //               Navigator.pushReplacement(context,
+                        //                   MaterialPageRoute(builder: (context) {
+                        //                 return const HomeScreen();
+                        //               }));
+                        //             });
+                        //           } on FirebaseAuthException catch (e) {
+                        //             print(e.code);
+                        //           }
+                        //         }
+                        //       },
+                        //       icon: const Icon(
+                        //         Icons.arrow_forward,
+                        //       )),
+                        // )
                             ],
                           ),
                         ],

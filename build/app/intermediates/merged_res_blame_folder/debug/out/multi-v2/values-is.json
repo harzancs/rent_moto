@@ -1,27 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/goventure/Documents/rent_moto/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml",
+            "outputFile": "D:\\flutter64\\moto_rent\\rent_moto\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-is\\values-is.xml",
             "map": [
                 {
-                    "source": "/Users/goventure/.gradle/caches/transforms-3/1980b08b97dd9f1c935468cd0abe0d6b/transformed/jetified-play-services-base-17.1.0/res/values-is/values.xml",
+                    "source": "C:\\Users\\66937\\.gradle\\caches\\transforms-3\\f67f5caece6e0b38d1262a5e461c03f2\\transformed\\core-1.6.0\\res\\values-is\\values-is.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,349,535,658,765,965,1088,1223,1353,1566,1670,1858,1982,2183,2363,2453,2542",
-                        "endColumns": "103,185,122,106,199,122,134,129,212,103,187,123,200,179,89,88,103",
-                        "endOffsets": "348,534,657,764,964,1087,1222,1352,1565,1669,1857,1981,2182,2362,2452,2541,2645"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,213,399,526,637,837,964,1103,1366,1579,1687,1875,2003,2204,2388,2482,2575",
-                        "endColumns": "107,185,126,110,199,126,138,133,212,107,187,127,200,183,93,92,107",
-                        "endOffsets": "208,394,521,632,832,959,1098,1232,1574,1682,1870,1998,2199,2383,2477,2570,2678"
+                        "startLines": "24",
+                        "startColumns": "4",
+                        "startOffsets": "3095",
+                        "endColumns": "100",
+                        "endOffsets": "3191"
                     }
                 },
                 {
-                    "source": "/Users/goventure/.gradle/caches/transforms-3/27639a89eb6495fb76b4dfd2b215906c/transformed/browser-1.4.0/res/values-is/values-is.xml",
+                    "source": "C:\\Users\\66937\\.gradle\\caches\\transforms-3\\27639a89eb6495fb76b4dfd2b215906c\\transformed\\browser-1.4.0\\res\\values-is\\values-is.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -38,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "/Users/goventure/.gradle/caches/transforms-3/de08eee8392a6c862d07ccced4c0cdae/transformed/jetified-play-services-basement-18.1.0/res/values-is/values.xml",
+                    "source": "C:\\Users\\66937\\.gradle\\caches\\transforms-3\\1980b08b97dd9f1c935468cd0abe0d6b\\transformed\\jetified-play-services-base-17.1.0\\res\\values-is\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,349,535,658,765,965,1088,1223,1353,1566,1670,1858,1982,2183,2363,2453,2542",
+                        "endColumns": "103,185,122,106,199,122,134,129,212,103,187,123,200,179,89,88,103",
+                        "endOffsets": "348,534,657,764,964,1087,1222,1352,1565,1669,1857,1981,2182,2362,2452,2541,2645"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,399,526,637,837,964,1103,1366,1579,1687,1875,2003,2204,2388,2482,2575",
+                        "endColumns": "107,185,126,110,199,126,138,133,212,107,187,127,200,183,93,92,107",
+                        "endOffsets": "208,394,521,632,832,959,1098,1232,1574,1682,1870,1998,2199,2383,2477,2570,2678"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\66937\\.gradle\\caches\\transforms-3\\de08eee8392a6c862d07ccced4c0cdae\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-is\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -52,23 +69,6 @@
                         "startOffsets": "1237",
                         "endColumns": "128",
                         "endOffsets": "1361"
-                    }
-                },
-                {
-                    "source": "/Users/goventure/.gradle/caches/transforms-3/f67f5caece6e0b38d1262a5e461c03f2/transformed/core-1.6.0/res/values-is/values-is.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "24",
-                        "startColumns": "4",
-                        "startOffsets": "3095",
-                        "endColumns": "100",
-                        "endOffsets": "3191"
                     }
                 }
             ]
