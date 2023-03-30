@@ -104,7 +104,6 @@
       "languageVersion": "2.17"
     },
     {
-<<<<<<< HEAD
       "name": "flutter_web_plugins",
       "rootUri": "file:///C:/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
@@ -119,23 +118,16 @@
     {
       "name": "intl",
       "rootUri": "file:///C:/Users/66937/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.17.0",
-=======
-      "name": "intl",
-      "rootUri": "file:///Users/goventure/development/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.18.0",
->>>>>>> 74edf5415916ae2213345ac065fd7544cb89d000
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
-<<<<<<< HEAD
       "name": "js",
       "rootUri": "file:///C:/Users/66937/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.6.5",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     },
     {
-=======
->>>>>>> 74edf5415916ae2213345ac065fd7544cb89d000
       "name": "lints",
       "rootUri": "file:///C:/Users/66937/AppData/Local/Pub/Cache/hosted/pub.dev/lints-2.0.1",
       "packageUri": "lib/",
@@ -232,11 +224,7 @@
       "languageVersion": "2.17"
     }
   ],
-<<<<<<< HEAD
-  "generated": "2023-03-30T07:21:15.725980Z",
-=======
-  "generated": "2023-03-30T07:27:21.738889Z",
->>>>>>> 74edf5415916ae2213345ac065fd7544cb89d000
+  "generated": "2023-03-30T09:39:10.196884Z",
   "generator": "pub",
   "generatorVersion": "2.19.5"
 }
