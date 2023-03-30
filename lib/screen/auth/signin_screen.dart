@@ -4,11 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:rent_moto/constants/constants.dart';
+import 'package:rent_moto/firebase/authen.dart';
 import 'package:rent_moto/other/widget/app_bar/white_bg_app_bar.dart';
 import 'package:rent_moto/other/widget/label.dart';
 import 'package:rent_moto/screen/screen.dart';
 
-import '../../firebase/authen.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({Key? key}) : super(key: key);
@@ -19,12 +19,9 @@ class SignInScreen extends StatefulWidget {
 
 class _SignInScreenState extends State<SignInScreen> {
 
-  final _FormKey = GlobalKey<FormState>();
-  TextEditingController _email = TextEditingController();
-  TextEditingController _password = TextEditingController();
+  final TextEditingController _email = TextEditingController();
+  final TextEditingController _password = TextEditingController();
 
-  LoginProfile loginprofile = LoginProfile();
-  final Future<FirebaseApp> firebase = Firebase.initializeApp();
 
   
   @override
@@ -57,122 +54,97 @@ class _SignInScreenState extends State<SignInScreen> {
                       )),
                   Container(
                     padding: const EdgeInsets.all(20),
-                    child: Column(
-                      children: [
-                        const SizedBox(
-                          height: 10,
-                        ),
-                        Container(
-                          padding: const EdgeInsets.symmetric(horizontal: 5),
-                          decoration: BoxDecoration(
-                              border: Border.all(
-                                color: COLOR_GREY,
+                    child: Form(
+                      child: Column(
+                        children: [
+                          const SizedBox(
+                            height: 10,
+                          ),
+                          Container(
+                            padding: const EdgeInsets.symmetric(horizontal: 5),
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                  color: COLOR_GREY,
+                                ),
+                                borderRadius: BorderRadius.circular(10)),
+                            child: TextFormField(
+                              controller: _email,
+                              decoration: const InputDecoration(
+                                icon: Icon(Icons.email),
+                                labelText: 'Email',
+                                border: InputBorder.none,
                               ),
-                              borderRadius: BorderRadius.circular(10)),
-                          child: TextFormField(
-                            keyboardType: TextInputType.emailAddress,
-                            onSaved: (String? email) {
-                              loginprofile.email = email;
-                            },
-                            decoration: const InputDecoration(
-                              icon: Icon(Icons.email),
-                              labelText: 'Email',
-                              border: InputBorder.none,
                             ),
                           ),
-                        ),
-                        const SizedBox(
-                          height: 10,
-                        ),
-                        Container(
-                          padding: const EdgeInsets.symmetric(horizontal: 5),
-                          decoration: BoxDecoration(
-                              border: Border.all(
-                                color: COLOR_GREY,
+                          const SizedBox(
+                            height: 10,
+                          ),
+                          Container(
+                            padding: const EdgeInsets.symmetric(horizontal: 5),
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                  color: COLOR_GREY,
+                                ),
+                                borderRadius: BorderRadius.circular(10)),
+                            child: TextFormField(
+                              controller: _password,
+                              decoration: const InputDecoration(
+                                icon: Icon(Icons.key),
+                                labelText: 'Password',
+                                border: InputBorder.none,
                               ),
-                              borderRadius: BorderRadius.circular(10)),
-                          child: TextFormField(
-                            onSaved: (String? password) {
-                              loginprofile.password = password;
-                            },
-                            decoration: const InputDecoration(
-                              icon: Icon(Icons.key),
-                              labelText: 'Password',
-                              border: InputBorder.none,
                             ),
                           ),
-                        ),
-                        const SizedBox(
-                          height: 10,
-                        ),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            GestureDetector(
-                              onTap: () {
-                                Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                        builder: (context) =>
-                                            const SignUpScreen()));
-                              },
-                              child: const Label(
-                                "ลงทะเบียน",
-                                decoration: TextDecoration.underline,
-                                decorationColor: COLOR_BLACK,
-                              ),
-                            ),
-                            GestureDetector(
-                              // onTap: () {
-                              //   Navigator.push(
-                              //       context,
-                              //       MaterialPageRoute(
-                              //           builder: (context) =>
-                              //               const HomeScreen()));
-                              // },
-                              onTap: () async {
-                                if (_FormKey.currentState!.validate()) {
-                                  _FormKey.currentState!.save();
-                                  try {
-                                    await FirebaseAuth.instance
-                                        .signInWithEmailAndPassword(
-                                            email: loginprofile.email!,
-                                            password: loginprofile.password!)
-                                        .then((value) {
-                                      _FormKey.currentState!.reset();
-                                      Navigator.push(
-                                        context,
-                                        MaterialPageRoute(
-                                            builder: (context) =>
-                                                const HomeScreen()));
-                                    });
-                                  } on FirebaseAuthException catch (e) {
-                                    print(e.toString());
-                                  }
-                                }
-                              },
-                              
-                              child: Container(
-                                padding: const EdgeInsets.symmetric(
-                                  horizontal: 20, vertical: 10
-                                ),
-                                decoration: BoxDecoration(
-                                  color: COLOR_CYAN,
-                                  border: Border.all(
-                                    color: COLOR_CYAN,
-                                  ),
-                                  borderRadius: BorderRadius.circular(10)
-                                ),
-                                
+                          const SizedBox(
+                            height: 10,
+                          ),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              GestureDetector(
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) =>
+                                              const SignUpScreen()));
+                                },
                                 child: const Label(
-                                  "เข้าสู่ระบบ",
+                                  "ลงทะเบียน",
+                                  decoration: TextDecoration.underline,
+                                  decorationColor: COLOR_BLACK,
                                 ),
-                                
                               ),
-                            ),
-                          ],
-                        ),
-                      ],
+                              GestureDetector(
+                                onTap: () async {
+                                  siginWithEmail(_email.text, _password.text);
+                                  var route = MaterialPageRoute(
+                                    builder: (context) => const HomeScreen(),
+                                  );
+                                  Navigator.push(context, route);
+                                },
+                                child: Container(
+                                  padding: const EdgeInsets.symmetric(
+                                    horizontal: 20, vertical: 10
+                                  ),
+                                  decoration: BoxDecoration(
+                                    color: COLOR_CYAN,
+                                    border: Border.all(
+                                      color: COLOR_CYAN,
+                                    ),
+                                    borderRadius: BorderRadius.circular(10)
+                                  ),
+                                  
+                                  child: const Label(
+                                    "เข้าสู่ระบบ",
+                                  ),
+                                  
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ],
@@ -183,11 +155,4 @@ class _SignInScreenState extends State<SignInScreen> {
       ),
     );
   }
-}
-
-class LoginProfile {
-  String? email;
-  String? password;
-
-  LoginProfile({this.email, this.password});
 }
