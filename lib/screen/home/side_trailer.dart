@@ -1,7 +1,10 @@
+import 'dart:convert';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:rent_moto/other/widget/label.dart';
 import 'package:rent_moto/screen/home/car_card.dart';
 
 class SideTrailler extends StatefulWidget {
@@ -12,6 +15,7 @@ class SideTrailler extends StatefulWidget {
 }
 
 class _SideTraillerState extends State<SideTrailler> {
+  Stream<QuerySnapshot>? collection;
   @override
   void initState() {
     getData();
@@ -19,25 +23,34 @@ class _SideTraillerState extends State<SideTrailler> {
   }
 
   getData() async {
-    var collection = FirebaseFirestore.instance.collection('motor');
-    var querySnapshot = await collection.get();
-    print("==> ");
-    print(querySnapshot.docs);
+    FirebaseFirestore firestore = FirebaseFirestore.instance;
+    setState(() {
+      collection = FirebaseFirestore.instance.collection('motor').snapshots();
+    });
   }
 
   @override
   Widget build(BuildContext context) {
-    return GridView.builder(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
-      gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-          maxCrossAxisExtent: 200,
-          childAspectRatio: 3 / 3,
-          crossAxisSpacing: 5,
-          mainAxisSpacing: 5),
-      itemCount: 10,
-      itemBuilder: (BuildContext ctx, index) {
-        return CarCard();
-      },
-    );
+    return StreamBuilder<QuerySnapshot>(
+        stream: collection,
+        builder: (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
+          if (snapshot.hasError) {
+            return Text('Something went wrong  [1]');
+          } else if (snapshot.connectionState == ConnectionState.waiting) {
+            return Text("Loading");
+          } else if (snapshot.hasData) {
+            return ListView(
+              children: snapshot.data!.docs.map((DocumentSnapshot document) {
+                Map<String, dynamic> data =
+                    document.data()! as Map<String, dynamic>;
+                return ListTile(
+                  title: Text(data["brand"]),
+                );
+              }).toList(),
+            );
+          } else {
+            return Text('Something went wrong  [2]');
+          }
+        });
   }
 }
