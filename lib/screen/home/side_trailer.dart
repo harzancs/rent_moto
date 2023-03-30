@@ -24,6 +24,7 @@ class _SideTraillerState extends State<SideTrailler> {
 
   getData() async {
     FirebaseFirestore firestore = FirebaseFirestore.instance;
+    print(firestore.settings);
     setState(() {
       collection = FirebaseFirestore.instance.collection('motor').snapshots();
     });

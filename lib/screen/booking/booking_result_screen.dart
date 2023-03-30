@@ -52,7 +52,7 @@ class _BookingResultScreenState extends State<BookingResultScreen> {
                       height: 20,
                     ),
                     Label(
-                      "จองสำเร็จ",
+                      "เช่าสำเร็จ",
                       fontSize: FONT_MEGA,
                     ),
                     const SizedBox(
@@ -92,7 +92,7 @@ class _BookingResultScreenState extends State<BookingResultScreen> {
                             color: COLOR_BLUE,
                             borderRadius: BorderRadius.circular(10)),
                         child: const Label(
-                          "รายการจอง",
+                          "รายการเช่า",
                           color: COLOR_WHITE,
                         ),
                       ),

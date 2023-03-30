@@ -54,7 +54,7 @@ class CarCard extends StatelessWidget {
               color: COLOR_BLUE,
               alignment: Alignment.center,
               child: const Label(
-                "จอง",
+                "เช่า",
                 color: COLOR_WHITE,
                 fontSize: FONT_DECA,
               ),
